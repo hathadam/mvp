@@ -31,14 +31,10 @@ class ImageApp extends React.Component {
 
   render() {
     return (
-      <div className="primary">
-        <div className="ui container" style={{marginTop:'5px'}}>
+        <div className="ui container">
           <ImageListSearchBar onSubmit={this.onImageSearchSubmit}/>
-        </div>
-        <div className='imageList'>
           <ImageList images={this.state.images}/>
         </div>
-      </div>
     );
   }
 }

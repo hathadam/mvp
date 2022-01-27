@@ -49,8 +49,9 @@ const Translate = () => {
         options={options}
       />
       <hr />
-      <h3 className="ui header">Output</h3>
       <Convert text={text} language={language} />
+      <hr />
+
     </div>
   );
 };
