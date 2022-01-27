@@ -1,0 +1,3 @@
+special-api/src/api-key/config.js
+server/.env
+server/node_modules
